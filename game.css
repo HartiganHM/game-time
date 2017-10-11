@@ -5,14 +5,13 @@ body {
 
 #game-start {
   width: 800px; 
-  height: 600px;
-  background-color: red;
+  height: 720px;
+  background-image: url('lib/images/defend-the-wall-breakout-game-start.gif');
   display: block;
   margin: auto;
 }
 
 #game {
-
   border: 3px solid #586BA4;
   margin: auto;
   display: none;
