@@ -1,6 +1,12 @@
 const assert = require('chai').assert;
 const Ball = require('../lib/Ball.js');
 
+let ball;
+
+beforeEach(() => {
+  ball = new Ball(5, 200, 3, 5, 2, true)
+})
+
 it('should be a function', function () {
   assert.isFunction(Ball);
 
@@ -43,13 +49,13 @@ it('should have counterclockwise rotation', function () {
 });
 
 it('should have an x-velocity', function () {
-  var ball = new Ball(5, 200, 3, 5, 2, true, 0);
+  var ball = new Ball(5, 200, 3, 5, 2, true);
   assert.equal(ball.dx, 0);
 
 });
 
 it('should have a y-velocity', function () {
-  var ball = new Ball(5, 200, 3, 5, 2, true, 0, 0);
+  var ball = new Ball(5, 200, 3, 5, 2, true);
   assert.equal(ball.dy, 0);
 
 });
