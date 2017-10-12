@@ -22,9 +22,3 @@ it('should start with no wins by deafult', function() {
   assert.equal(player.wins, 0);
 
 });
-
-it('should lose a life after ball falls below paddle', function () {
-  player.deathCheck();
-  assert.equal(player.lives, 2);
-
-});
