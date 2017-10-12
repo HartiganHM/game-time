@@ -5,14 +5,12 @@
   <link rel="stylesheet" type="text/css" href="./game.css">
   <title>Game Time</title>
 </head>
-<body>
-	<canvas 
-  		id="game" 
-  		width="800" 
-  		height="720">
-	</canvas>
 
-  <div id="game-start">
+<body>
+  <div id="wrapper">
+    <div id="game-start">
+    </div>
+
     <div id="get-ready">
     </div>
 
@@ -21,11 +19,17 @@
 
     <div id="death-2">
     </div>
+
+    <div id="game-over">
+    </div>
+
+  	<canvas 
+    		id="game" 
+    		width="800" 
+    		height="720">
+  	</canvas>
   </div>
- 
-  <div id="game-over">
-  </div>
-  
+
 	<div id="images">
 		<img id="blue-brick" src="./lib/images/blue-brick.svg">
 		<img id="paddle" src="./lib/images/sword-paddle.png">
