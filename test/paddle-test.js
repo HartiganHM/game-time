@@ -1,5 +1,6 @@
 var assert = require('chai').assert;
 var Paddle = require('../lib/Paddle.js');
+var Game = require('../lib/Game.js');
 
 let paddle;
 
@@ -41,6 +42,18 @@ it('should have an x-velocity of 0 by default', function () {
   assert.equal(paddle.dx, 0)
 });
 
+it('should have an empty array to store keycodes', function () {
+  assert.deepEqual(paddle.keys, []);
+})
 
+it('should have velocity multiplied by friction on move', function () {
+  paddle.dx = 1;
+  paddle.move();
+  assert.equal(paddle.dx, 0.98);
+})
 
-
+it('should have new velocity added to x coordinates on move', function () {
+  paddle.dx = 1;
+  paddle.move();
+  assert.equal(paddle.x, 5.98)
+})
