@@ -55,10 +55,42 @@ body {
   z-index: 1;
 }
 
+#win-1 {
+  width: 600px; 
+  height: 520px;
+  background-image: url('lib/images/game-transition-win1.gif');
+  display: none;
+  margin: auto;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  z-index: 1;
+}
+
+#win-2 {
+  width: 600px; 
+  height: 520px;
+  background-image: url('lib/images/game-transition-win2.gif');
+  display: none;
+  margin: auto;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  z-index: 1;
+}
+
 #game-over {
   width: 800px; 
   height: 720px;
   background-image: url('lib/images/game-time-game-over-overlay.gif');
+  display: none;
+  margin: auto;
+}
+
+#victory {
+  width: 800px; 
+  height: 720px;
+  background-image: url('lib/images/game-time-victory.gif');
   display: none;
   margin: auto;
 }
