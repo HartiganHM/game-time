@@ -23,15 +23,15 @@ it('should have a starting y', function () {
 });
 
 it('should a radius', function () {
-  assert.equal(ball.rStart, 10);
+  assert.equal(ball.radius, 10);
 });
 
 it('should have a starting angle', function () {
-  assert.equal(ball.rEnd, 0);
+  assert.equal(ball.angleStart, 0);
 });
 
 it('should have a ending angle (with PI)', function () {
-  assert.equal(ball.pi, Math.PI * 2);
+  assert.equal(ball.angleEnd, Math.PI * 2);
 });
 
 it('should take a boolean for the counterclockwise argument', function () {

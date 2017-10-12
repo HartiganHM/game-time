@@ -1,6 +1,5 @@
 var assert = require('chai').assert;
 var Paddle = require('../lib/Paddle.js');
-var Game = require('../lib/Game.js');
 
 let paddle;
 
