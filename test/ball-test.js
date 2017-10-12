@@ -6,7 +6,7 @@ let ball;
 let paddle;
 
 beforeEach(() => {
-  ball = new Ball(5, 20, 10, 0, Math.PI * 2, false)
+  ball = new Ball(5, 20, 10, 0, Math.PI * 2, false);
   paddle = new Paddle(100, 100, 120, 30);
 })
 
