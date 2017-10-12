@@ -11,6 +11,39 @@ body {
   margin: auto;
 }
 
+#get-ready {
+  width: 600px; 
+  height: 520px;
+  background-image: url('lib/images/game-transition-get-ready.gif');
+  display: none;
+  margin: auto;
+  position: relative;
+  top: 100px;
+  z-index: 1;
+}
+
+#death-1 {
+  width: 600px; 
+  height: 520px;
+  background-image: url('lib/images/game-transition-death1.gif');
+  display: none;
+  margin: auto;
+  position: relative;
+  top: 100px;
+  z-index: 1;
+}
+
+#death-2 {
+  width: 600px; 
+  height: 520px;
+  background-image: url('lib/images/game-transition-death2.gif');
+  display: none;
+  margin: auto;
+  position: relative;
+  top: 100px;
+  z-index: 1;
+}
+
 #game-over {
   width: 800px; 
   height: 720px;
