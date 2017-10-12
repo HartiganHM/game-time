@@ -11,14 +11,23 @@ body {
   margin: auto;
 }
 
+#wrapper {
+  width: 800px; 
+  height: 720px;
+  display: block;
+  margin: auto;
+  position: relative;
+}
+
 #get-ready {
   width: 600px; 
   height: 520px;
   background-image: url('lib/images/game-transition-get-ready.gif');
   display: none;
   margin: auto;
-  position: relative;
+  position: absolute;
   top: 100px;
+  left: 100px;
   z-index: 1;
 }
 
@@ -28,8 +37,9 @@ body {
   background-image: url('lib/images/game-transition-death1.gif');
   display: none;
   margin: auto;
-  position: relative;
+  position: absolute;
   top: 100px;
+  left: 100px;
   z-index: 1;
 }
 
@@ -39,8 +49,9 @@ body {
   background-image: url('lib/images/game-transition-death2.gif');
   display: none;
   margin: auto;
-  position: relative;
+  position: absolute;
   top: 100px;
+  left: 100px;
   z-index: 1;
 }
 
