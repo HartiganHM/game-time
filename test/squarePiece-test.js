@@ -36,18 +36,19 @@ it('should have a height', function () {
 
 });
 
-it.skip('should reverse ball y velocity when hit', function () {
+it('should reverse ball y velocity when hit', function () {
   ball.dy = -10;
+  assert.equal(ball.dy, -10);
   squarePiece.collide(ball);
   assert.equal(ball.dy, 10);
-  
 });
 
-it.skip('should reverse ball x velocity when hit', function () {
-  ball.x = 80;
-  ball.y = 110;
+it('should reverse ball x velocity when hit', function () {
+  let ball = new Ball(90, 110, 10, 0, Math.PI * 2, false);
   ball.dx = 10;
+  assert.equal(ball.dx, 10);
+  ball.move();
+  assert.equal(ball.x, 100);
   squarePiece.collide(ball);
   assert.equal(ball.dx, -10);
-  
 });
