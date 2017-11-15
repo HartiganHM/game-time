@@ -51,7 +51,7 @@
 	const gameStart = document.getElementById('game-start');
 	const getReady = document.getElementById('get-ready');
 
-	const introSound = new Audio('../sounds/got-intro.wav');
+	const introSound = new Audio('sounds/got-intro.wav');
 	introSound.volume = 0.08;
 	introSound.loop = true;
 
@@ -146,25 +146,25 @@
 	const victory = document.getElementById('victory');
 
 	// Sounds
-	const gamePlaySound = new Audio('../sounds/got-intro.wav');
+	const gamePlaySound = new Audio('sounds/got-intro.wav');
 	gamePlaySound.volume = 0.08;
 	gamePlaySound.loop = true;
 
-	const lastLevelSound = new Audio('../sounds/got-light-of-the-seven.wav');
+	const lastLevelSound = new Audio('sounds/got-light-of-the-seven.wav');
 	lastLevelSound.volume = 0.15;
 	lastLevelSound.loop = true;
 
-	const gameOverSound = new Audio('../sounds/got-rains-of-castamere.wav');
+	const gameOverSound = new Audio('sounds/got-rains-of-castamere.wav');
 	gameOverSound.currentTime = 4;
 	gameOverSound.volume = 0.08;
 	gameOverSound.loop = true;
 
-	const gameWin = new Audio('../sounds/got-theme.mp3');
+	const gameWin = new Audio('sounds/got-theme.mp3');
 	gameWin.volume = 0.08;
 
-	const zSound1 = new Audio('../sounds/zombie-1.wav');
-	const zSound2 = new Audio('../sounds/zombie-2.wav');
-	const zSound3 = new Audio('../sounds/zombie-3.wav');
+	const zSound1 = new Audio('sounds/zombie-1.wav');
+	const zSound2 = new Audio('sounds/zombie-2.wav');
+	const zSound3 = new Audio('sounds/zombie-3.wav');
 
 	// Game
 	module.exports = class Game {
@@ -410,7 +410,7 @@
 /* 4 */
 /***/ (function(module, exports) {
 
-	const swordSound = new Audio('../sounds/sword.wav');
+	const swordSound = new Audio('sounds/sword.wav');
 	swordSound.volume = 0.08;
 
 	class Ball {
