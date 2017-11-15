@@ -1,5 +1,5 @@
 body {
-  background-image: url("http://wlpgot.com/images/wall-game-of-thrones-23.jpg");
+  background-image: url('lib/images/game-background.jpg');
   background-size: cover;
 }
 
